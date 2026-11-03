@@ -1,0 +1,76 @@
+# ---------- macOS ----------
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# ---------- Xcode: build ----------
+build/
+DerivedData/
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+*.xcarchive
+
+# ---------- Xcode: dati utente ----------
+xcuserdata/
+*.xcuserstate
+*.xcscmblueprint
+*.xccheckout
+*.moved-aside
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+!default.pbxuser
+!default.mode1v3
+!default.mode2v3
+!default.perspectivev3
+
+# ---------- Xcode: varie ----------
+*.xcodeproj/project.xcworkspace/xcuserdata/
+*.xcodeproj/xcuserdata/
+*.xcworkspace/xcuserdata/
+timeline.xctimeline
+playground.xcworkspace
+
+# ---------- Swift Package Manager ----------
+.build/
+.swiftpm/
+Packages/
+# Package.resolved: NON ignorato di proposito (per le app va committato
+# per avere versioni delle dipendenze riproducibili)
+
+# ---------- CocoaPods ----------
+# Se committi la cartella Pods, rimuovi questa riga
+Pods/
+
+# ---------- Carthage ----------
+Carthage/Build/
+Carthage/Checkouts
+
+# ---------- Fastlane ----------
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output
+
+# ---------- Test ----------
+*.gcno
+*.gcda
+*.xcresult
+
+# ---------- Segreti e configurazioni locali ----------
+*.p12
+*.mobileprovision
+*.cer
+GoogleService-Info.plist
+Secrets.xcconfig
+.env
+
+# ---------- IDE / editor ----------
+.idea/
+.vscode/
+*.swp
+*~
